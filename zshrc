@@ -50,3 +50,4 @@ autoload -Uz compinit
 compinit
 # End of Docker CLI completions
 export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
+export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"

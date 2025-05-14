@@ -47,7 +47,7 @@
 [branch "master"]
   mergeoptions = --no-edit
 [user]
-	email = tomd.57@live.com
+	email = 51497148+drby@users.noreply.github.com
 	name = tom darby
 [filter "lfs"]
 	clean = git-lfs clean -- %f
