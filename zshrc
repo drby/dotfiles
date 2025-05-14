@@ -39,3 +39,14 @@ export LC_ALL=en_US.UTF-8
 export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
 export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
 export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
+export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
+
+. /opt/homebrew/opt/asdf/libexec/asdf.sh
+
+source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+# The following lines have been added by Docker Desktop to enable Docker CLI completions.
+fpath=(/Users/tomdarby/.docker/completions $fpath)
+autoload -Uz compinit
+compinit
+# End of Docker CLI completions
+export BUNDLER_EDITOR="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -a"
